@@ -69,6 +69,8 @@
             button37 = new Button();
             button38 = new Button();
             button39 = new Button();
+            label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // richTextBox1
@@ -563,11 +565,31 @@
             button39.UseVisualStyleBackColor = false;
             button39.Click += button39_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(240, 76);
+            label2.Name = "label2";
+            label2.Size = new Size(54, 15);
+            label2.TabIndex = 49;
+            label2.Text = "Vesiqe İD";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(657, 42);
+            label3.Name = "label3";
+            label3.Size = new Size(38, 15);
+            label3.TabIndex = 50;
+            label3.Text = "label3";
+            // 
             // Rekvizit
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(849, 536);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(button39);
             Controls.Add(button37);
             Controls.Add(button38);
@@ -660,5 +682,7 @@
         private Button button37;
         private Button button38;
         private Button button39;
+        private Label label2;
+        private Label label3;
     }
 }
